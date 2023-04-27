@@ -1,4 +1,4 @@
-package src.class_design.inheritance.protected_acces.a;
+package src.class_design.inheritance.protected_access.a;
 
 public class Person {
     protected String name="Name of person";

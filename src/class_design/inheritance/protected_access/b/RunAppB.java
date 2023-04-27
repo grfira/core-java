@@ -1,6 +1,6 @@
-package src.class_design.inheritance.protected_acces.b;
+package src.class_design.inheritance.protected_access.b;
 
-import src.class_design.inheritance.protected_acces.a.Person;
+import src.class_design.inheritance.protected_access.a.Person;
 
 class RunAppB {
     public static void main(String[] args) {

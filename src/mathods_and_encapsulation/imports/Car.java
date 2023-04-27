@@ -11,5 +11,6 @@ class Car {
         Engine.start();                     //"regular" import
         new Engine().start();               //"regular" import
         System.out.println(Engine.power);   //"regular" import
+        ((Engine)null).start();             //"regular" import
     }
 }
