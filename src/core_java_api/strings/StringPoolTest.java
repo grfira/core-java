@@ -16,5 +16,11 @@ class StringPoolTest {
         System.out.println("number1" == "number" + one1);
         System.out.println("number1" == "number" + one2);
         System.out.println("number1" == "number" + 1);
+
+        Integer two1 = 2;
+        final Integer two2 = 2;
+        System.out.println("number2" == "number" + two1);
+        System.out.println("number2" == "number" + two2);
+        System.out.println("number2" == "number" + 2);
     }
 }
