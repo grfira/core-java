@@ -5,7 +5,9 @@ class OperatorPrecedence {
 
         int x = 5;
         System.out.println(x + x * x + x);
-        x = 5;
         System.out.println(x += x *= x += x);
+        byte b = 0b100;
+        System.out.println(~b | b & b);
+
     }
 }
