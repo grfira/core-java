@@ -8,6 +8,9 @@ class OperatorPrecedence {
         System.out.println(x += x *= x += x);
         byte b = 0b100;
         System.out.println(~b | b & b);
+        System.out.println(true||false&&false);
+
+
 
     }
 }
